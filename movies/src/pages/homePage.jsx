@@ -1,7 +1,6 @@
-import React from "react";
+import React, { useState, useEffect } from "react";  
 import MovieList from "../components/movieList";
 import Grid from "@mui/material/Grid2";
-import React, { useState, useEffect } from "react";  
 
 
 const HomePage = (props) => {
