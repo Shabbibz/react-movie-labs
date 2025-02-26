@@ -39,7 +39,6 @@ const MoviePage = (props) => {
     // eslint-disable-next-line
   }, []);
 
-
   return (
     <>
       {movie ? (
@@ -70,7 +69,6 @@ const MoviePage = (props) => {
                     </ImageListItem>
                   ))}
                 </ImageList>
-
               </div>
             </Grid>
             <Grid size={{ xs: 9 }}>
