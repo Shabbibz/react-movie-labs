@@ -1,5 +1,9 @@
 {
   "dependencies": {
+    "@tanstack/react-query": "^5.66.9",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.66.9"
   }
 }
