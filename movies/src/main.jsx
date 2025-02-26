@@ -1,9 +1,9 @@
 import MovieDetailsPage from './pages/movieDetailsPage'
 import React from "react";
 import { createRoot } from "react-dom/client";
-// import { BrowserRouter, Route, Navigate, Routes } from "react-router";
-// import HomePage from "./pages/homePage";
-// import MoviePage from "./pages/movieDetailsPage";
+import { BrowserRouter, Route, Navigate, Routes } from "react-router";
+import HomePage from "./pages/homePage";
+import MoviePage from "./pages/movieDetailsPage";
 
 // const App = () => {
 //   return (
