@@ -1,3 +1,4 @@
+import { getGenres } from "../../api/tmdb-api";
 import React, { useState, useEffect } from "react";
 import Card from "@mui/material/Card";
 import CardMedia from "@mui/material/CardMedia";
@@ -10,7 +11,6 @@ import SearchIcon from "@mui/icons-material/Search";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import img from '../../images/pexels-dziana-hasanbekava-5480827.jpg'
-import { getGenres } from "../../api/tmdb-api";
 
 const formControl =
 {
@@ -28,8 +28,8 @@ export default function FilterMoviesCard(props) {
           setGenres([genres[0], ...allGenres]);
         });
         // eslint-disable-next-line react-hooks/exhaustive-deps
-      }, [])
-    
+      }, [])    
+
 
     const handleChange = (e, type, value) => {
         e.preventDefault()
