@@ -1,4 +1,3 @@
-import MovieDetailsPage from './pages/movieDetailsPage'
 import React from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, Route, Navigate, Routes } from "react-router";
@@ -113,9 +112,6 @@ const App = () => {
       <MovieDetailsPage movie={sample} images={images} />
       );
 };
-
-
-
 
 
 const rootElement = createRoot( document.getElementById("root") )
