@@ -1,9 +1,9 @@
 import React from "react";
-import { getUpcomingMovies } from "../api/tmdb-api"; //this will change
+import { getUpcomingMovies } from "../api/tmdb-api"; 
 import PageTemplate from '../components/templateMovieListPage';
 import { useQuery } from '@tanstack/react-query';
 import Spinner from '../components/spinner';
-import AddToFavoritesIcon from '../components/cardIcons/addToFavorites' //this will change
+import AddToWatchLaterIcon from '../components/cardIcons/addToWatchLater' //this will change
 
 const UpcomingMovies = (props) => {
 
@@ -28,7 +28,7 @@ const UpcomingMovies = (props) => {
       title="Discover Upcoming Movies"
       movies={movies}
       action={(movie) => {
-        return <AddToFavoritesIcon movie={movie} /> //this will change
+        return <AddToWatchLaterIcon movie={movie} /> //this will change
       }}
     />
 );
