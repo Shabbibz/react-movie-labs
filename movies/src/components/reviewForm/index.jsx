@@ -124,7 +124,6 @@ const ReviewForm = ({ movie }) => {
         </MuiAlert>
       </Snackbar>
 
-
       <form sx={styles.form} onSubmit={handleSubmit(onSubmit)} noValidate>
         <Controller
           name="author"
